@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+import tensorflow as tf
+
+a=tf.constant(1)
+b=tf.constant(2)
+
+sum=tf.add(a,b)
+
+sess=tf.Session()
+
+sess.run(sum)
